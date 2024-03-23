@@ -2,20 +2,27 @@ import React from 'react'
 import './Papular.css'
 import data_product from '../Assest/data'
 import Item from '../Item/Item'
+import { Button } from 'react-bootstrap'
 
 export const Popular = () => {
     return (
-        <div className='popular'>
+        <div className='Conta'>
 
-            <h1>POPULAR IN WOMEN</h1>
-            <hr />
-            <div className='popular-item'>
-                {
-                    data_product.map((item, i) => {
-                        return <Item key={i} id={item.id} name={item.name} image={item.image} new_price={item.new_price} old_price={item.old_price}></Item>
-                    })
-                }
+
+
+            <div className='popular container'>
+
+                <h1>POPULAR IN WOMEN</h1>
+                <hr />
+                <div className='popular-item'>
+                    {
+                        data_product.map((item, i) => {
+                            return <Item key={i} id={item.id} name={item.name} image={item.image} new_price={item.new_price} old_price={item.old_price}></Item>
+                        })
+                    }
+                </div>
             </div>
+            
         </div>
     )
 }

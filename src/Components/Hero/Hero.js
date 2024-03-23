@@ -4,8 +4,13 @@ import hand_icon from '../Assest/hand_icon.png'
 import arrow_icon from '../Assest/arrow.png'
 import hero_imag from '../Assest/hero_image.png'
 
+
 export const Hero = () => {
   return (
+    
+
+   
+    
     <div className='hero'>
         <div className='hero-left'>
         <h2>NEEW ARRIVALS ONLY</h2>
@@ -26,5 +31,6 @@ export const Hero = () => {
         </div>
 
     </div>
+   
   )
 }

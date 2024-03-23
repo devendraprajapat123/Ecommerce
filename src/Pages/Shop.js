@@ -4,15 +4,19 @@ import { Popular } from '../Components/Popular/Popular'
 import { Offers } from '../Components/Offers/Offers'
 import { NewCollections } from '../Components/NewCollections/NewCollections'
 import { NewLetter } from '../Components/NewsLetter/NewLetter'
+import { Container } from 'react-bootstrap'
 
 export const Shop = () => {
   return (
-    <div>
+    <Container>
+    
+
         <Hero/>
         <Popular/>
         <Offers/>
         <NewCollections/>
         <NewLetter/>
-    </div>
+    
+    </Container>
   )
 }

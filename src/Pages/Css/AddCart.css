@@ -1,5 +1,6 @@
 .cartitems {
-    margin: 100px 170px;
+    margin: 100px 110px;
+   
 
 }
 
@@ -64,7 +65,7 @@ padding: 15px 0px;
 }
 
 .cartitem-total button{
-    width: 263px;
+    width: 333px;
     height: 58px;
     outline: none;
     border: none;
@@ -87,7 +88,7 @@ padding: 15px 0px;
 }
 
 .cartitem-promobox{
-    width: 504px;
+    width: 404px;
     margin-top: 15px;
     padding-left: 20px;
     height: 58px;
